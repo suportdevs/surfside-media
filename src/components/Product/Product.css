@@ -1,0 +1,32 @@
+.product-left-container {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 35px 0;
+}
+.product-details h3 {
+    font-weight: 400;
+    color: blue;
+}
+
+.product-details p {
+    font-size: 15px;
+}
+
+.product-details-btn {
+    background: #f79102;
+    padding: 10px 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.product-details-btn:hover {
+    background: #f7ce38;
+    font-weight: 600;
+    /* transition: 1s; */
+}
+
+.product-details {
+    margin-left: 21px;
+}

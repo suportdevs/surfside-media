@@ -1,0 +1,15 @@
+
+.product-details.reviewItem p {
+    display: inline-block;
+    border-right: 2px solid #ddd;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.product-details.reviewItem p:nth-child(1) {
+    padding-left: 0;
+}
+
+.product-details.reviewItem p:nth-child(5) {
+    border-right: none;
+}
